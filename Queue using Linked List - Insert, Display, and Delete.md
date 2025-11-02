@@ -31,8 +31,20 @@ To write a Python program that:
 ---
 
 ## Program
-Add Code Here
+stack = []
+
+stack.append('a')
+stack.append('b')
+stack.append('c')
+print("Stack after elements are pushed:")
+print(stack)
+print("Deleting the last element inserted:")
+print(stack.pop())
+print("Stack after elements are popped:")
+print(stack)
 
 ## Output
+<img width="1029" height="275" alt="image" src="https://github.com/user-attachments/assets/d65808dd-fac8-4f83-ba0b-8d598b9f7b93" />
 
 ## Result
+Thus, the program was executed successfully
